@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
+import {Text} from 'native-base';
 import {View} from 'react-native';
 import {connect} from 'react-redux';
+//import {actionName} from 'path/to/actions/action_example';
+
 
 class MainScreen extends Component {
   render() {
@@ -22,5 +25,6 @@ const styles = {
   },
 };
 
+const mapStateToProps = ({/*reducers neededs*/}) => ({/*same reducers*/}) //the reducers will be in the this.props
 
-export default connect()(MainScreen);
+export default connect(mapStateToProps,{/*action1, action2*/})(MainScreen);
