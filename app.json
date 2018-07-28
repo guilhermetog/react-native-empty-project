@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "react-native-template",
+    "description": "This project is really great.",
+    "slug": "react-native-template",
+    "privacy": "public",
+    "sdkVersion": "29.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1"
+    },
+    "android":{
+      "package": "com.guilhermetog.guitartool",
+      "permissions": [],
+      "versionCode": 1
+    }
+  }
+}
